@@ -23,6 +23,7 @@ cat package.json | json -e "this.name = '@$PROJECTNAME/frontend'" > package.json
 cd ../
 composer global require laravel/installer
 laravel new backend
+cd backend
 yarn
 cat package.json | json -e "this.scripts.art = 'php artisan'" > package.json
 cat package.json | json -e "this.scripts.seed = 'yarn art migrate:fresh && yarn art db:seed'" > package.json
