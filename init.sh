@@ -6,9 +6,8 @@ echo Crafting project $PROJECTNAME...
 rm .git -rf
 git init
 yarn global add json
-yarn init
-yarn global add @angular/cli lerna
-yarn link @angular/cli lerna
+yarn init -yp
+yarn add @angular/cli lerna
 yarn lerna init
 cd packages
 yarn ng new frontend
