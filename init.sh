@@ -45,3 +45,4 @@ echo Crafting complete!
 
 git add .
 git commit -m "Bootstrap!"
+echo Commited!
