@@ -3,7 +3,7 @@
 PROJECTNAME=${PWD##*/}
 echo Crafting project $PROJECTNAME...
 
-rm .git
+rm .git -rf
 git init
 yarn global add json
 yarn init
