@@ -18,6 +18,7 @@ yarn add @ngx-resource/core @ngx-resource/handler-ngx-http @uirouter/angular fak
 yarn ng add ng-zorro-antd --i18n=ru_RU
 mv proxy.config.json packages/frontend
 cat package.json | json -e "this.scripts.start += ' --proxy-config proxy.config.json --port 4201'" > package.json
+cat package.json | json -e "this.name = '@$PROJECTNAME/frontend'" > package.json
 cd ../
 composer global require laravel/installer
 laravel new backend
@@ -33,7 +34,6 @@ cat package.json | json -e "this.scripts.start = 'lerna run start --stream --par
 cat package.json | json -e "this.scripts.build = 'lerna run build --stream --parallel';" > package.json
 
 cd packages/frontend
-cat package.json | json -e "this.name = '@$PROJECTNAME/frontend'" > package.json
 
 cd ../backend
 cat package.json | json -e "this.name = '@$PROJECTNAME/backend'" > package.json
