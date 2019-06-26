@@ -7,7 +7,8 @@ rm .git -rf
 git init
 yarn global add json
 yarn init
-yarn add @angular/cli lerna
+yarn global add @angular/cli lerna
+yarn link @angular/cli lerna
 yarn lerna init
 cd packages
 yarn ng new frontend
@@ -18,12 +19,14 @@ yarn add @ngx-resource/core @ngx-resource/handler-ngx-http @uirouter/angular fak
 yarn ng add ng-zorro-antd --i18n=ru_RU
 cd ../..
 mv proxy.config.json packages/frontend
+cd packages/frontend
 cat package.json | json -e "this.scripts.start += ' --proxy-config proxy.config.json --port 4201'" > package.json
 cat package.json | json -e "this.name = '@$PROJECTNAME/frontend'" > package.json
 cd ../
 composer global require laravel/installer
 laravel new backend
 cd backend
+composer require laravelrus/sleepingowl doctrine/dbal barryvdh/laravel-ide-helper symfony/yaml
 yarn
 cat package.json | json -e "this.scripts.art = 'php artisan'" > package.json
 cat package.json | json -e "this.scripts.seed = 'yarn art migrate:fresh && yarn art db:seed'" > package.json
@@ -39,3 +42,4 @@ cd packages/frontend
 
 cd ../backend
 cat package.json | json -e "this.name = '@$PROJECTNAME/backend'" > package.json
+echo Crafting complete!
