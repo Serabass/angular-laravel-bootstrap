@@ -10,7 +10,8 @@ mv frontend packages
 cd packages/frontend
 yarn add @ngx-resource/core @ngx-resource/handler-ngx-http @uirouter/angular faker jquery lodash moment reflect-metadata
 yarn ng add ng-zorro-antd --i18n=ru_RU
+cd ../..
 mv proxy.config.json packages/frontend
-cd ../
+cd packages
 composer global require laravel/installer
 laravel new backend
