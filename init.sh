@@ -42,3 +42,6 @@ cd packages/frontend
 cd ../backend
 cat package.json | json -e "this.name = '@$PROJECTNAME/backend'" > package.json
 echo Crafting complete!
+
+git add .
+git commit -m "Bootstrap!"
