@@ -1,5 +1,4 @@
-mkdir <project-name>
-cd <project-name>
+rm .git
 git init
 yarn init
 yarn add @angular/cli lerna
