@@ -7,7 +7,7 @@
  * [LaravelRUS/SleepingOwlAdmin](https://github.com/LaravelRUS/SleepingOwlAdmin)
  * [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper)
 
-Все подробности см. в [init.sh](/init.sh)
+Все подробности см. в [init.sh](/init.sh) (Описал выполнение каждой команды в комментариях)
 
 ```
  $ git clone https://github.com/Serabass/angular-laravel-bootstrap <project-name>
