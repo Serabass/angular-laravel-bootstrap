@@ -1,4 +1,4 @@
-Репозиторий для быстрого развёртывания проекта с использованием Laravel, Angular и Lerna.
+Репозиторий для быстрого развёртывания проекта с использованием [Laravel](https://laravel.com/), [Angular](https://angular.io/) и [Lerna](https://github.com/lerna/lerna).
 
 Что под капотом:
  * [ng-zorro-antd](https://ng.ant.design/docs/introduce/en)
