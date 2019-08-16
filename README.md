@@ -13,3 +13,6 @@
  $ sh init.sh
  $ yarn start
 ```
+
+TODO:
+* Добавить автоматическую генерацию задач для PHPStorm (yarn start, etc)
