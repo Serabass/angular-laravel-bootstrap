@@ -5,7 +5,7 @@
  * [Глобально установленный Composer](https://getcomposer.org/)
 
 # Что под капотом
- * [ng-zorro-antd](https://ng.ant.design/docs/introduce/en)
+ * [NgZorro (Ant Design for Angular)](https://ng.ant.design/docs/introduce/en)
  * [@ngx-resource/core](https://www.npmjs.com/package/@ngx-resource/core)
  * [@uirouter/angular](https://www.npmjs.com/package/@uirouter/angular)
  * [LaravelRUS/SleepingOwlAdmin](https://github.com/LaravelRUS/SleepingOwlAdmin)
