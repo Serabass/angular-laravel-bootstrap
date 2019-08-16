@@ -25,6 +25,17 @@
 ```
 _**Примечание**: локальный коммит выполняется автоматически после выполнения всех установок_
 
+# Краткий экскурс по командам
+## Backend
+ * `yarn art` - Короткая запись `php artisan`. (`yarn art migrate` == `php artisan migrate`)
+ * `yarn mf` - Короткая запись `php artisan migrate:fresh`. Очищает всю базу данных и выполняет [миграции](https://laravel.com/docs/5.8/migrations#running-migrations) с нуля.
+ * `yarn seed` - Сбросить всю базу данных и заполнить имеющимися [сидами](https://laravel.com/docs/5.8/seeding). 
+ * `yarn m` - Короткая запись `php artisan migrate`
+ * `yarn ide-helper` - Вызвать [ide-helper](https://github.com/barryvdh/laravel-ide-helper)
+ * `yarn start` - запустить все вложенные проекты через Lerna
+ * `yarn build` - забилдить все вложенные проекты через Lerna
+
+
 TODO:
 * Добавить автоматическую генерацию задач для PHPStorm (yarn start, etc)
 * Добавить common-модуль
