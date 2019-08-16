@@ -12,6 +12,7 @@
 
 Все подробности см. в [init.sh](/init.sh) (Описал выполнение каждой команды в комментариях)
 
+# Крафтим новый проект
 ```
  $ git clone https://github.com/Serabass/angular-laravel-bootstrap <project-name>
  $ cd <project-name>
@@ -19,9 +20,9 @@
  $ yarn start
 ```
 
-Проверить в браузере: http://localhost:4201/
+Проверяем в браузере: http://localhost:4201/
 
-Чтобы положить всё в репозиторий:
+Кладём в свой репозиторий:
 ```
  $ git remote add origin <your-repo-url>
  $ git push -u origin master
