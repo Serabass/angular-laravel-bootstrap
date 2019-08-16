@@ -72,7 +72,7 @@ composer global require laravel/installer
 # Крафтим бэк
 laravel new backend
 
-# Проваливаемся в директорию
+# Проваливаемся в директорию новоиспечённого бэкенда
 cd backend
 
 # Запрашиваем нужные пакеты
