@@ -4,7 +4,7 @@
 PROJECTNAME=${PWD##*/}
 echo Crafting project $PROJECTNAME...
 
-# Удаляем привязку к этопу репозиторию, она нам не нужна
+# Удаляем привязку к этому репозиторию, она нам не нужна
 rm .git -rf
 
 # Инициализируем новый git-репозиторий
@@ -82,7 +82,7 @@ composer require laravelrus/sleepingowl \
                  symfony/yaml
 
 # Устанавливаем нодовые зависимости
-yarn 
+yarn
 
 # Прописываем нужные команды (подробнее в README)
 cat package.json | json -e "this.scripts.art = 'php artisan'" > package.json
