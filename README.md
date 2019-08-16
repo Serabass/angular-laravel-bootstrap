@@ -1,11 +1,11 @@
 Репозиторий для быстрого развёртывания проекта с использованием Laravel, Angular и Lerna.
 
 Что под капотом:
- * ng-zorro-antd
- * @ngx-resource/core
- * @uirouter/angular
- * laravelrus/sleepingowl
- * barryvdh/laravel-ide-helper
+ * [ng-zorro-antd](https://ng.ant.design/docs/introduce/en)
+ * [@ngx-resource/core](https://www.npmjs.com/package/@ngx-resource/core)
+ * [@uirouter/angular](https://www.npmjs.com/package/@uirouter/angular)
+ * [LaravelRUS/SleepingOwlAdmin](https://github.com/LaravelRUS/SleepingOwlAdmin)
+ * [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper)
 
 Все подробности см. в [init.sh](/init.sh)
 
