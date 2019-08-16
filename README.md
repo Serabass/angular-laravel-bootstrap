@@ -7,7 +7,7 @@
  * laravelrus/sleepingowl
  * barryvdh/laravel-ide-helper
 
-Все подробности см. в `init.sh`
+Все подробности см. в [init.sh](/init.sh)
 
 ```
  $ git clone https://github.com/Serabass/angular-laravel-bootstrap <project-name>
