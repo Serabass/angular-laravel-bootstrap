@@ -55,4 +55,5 @@ _**Примечание**: локальный коммит выполняетс�
 * Angular + Node + Express \[+ GraphQL]
 * Angular + .Net Core
 * Angular + Grails
+* NativeScript
 * и многое другое
