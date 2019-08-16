@@ -14,10 +14,16 @@
  $ cd <project-name>
  $ sh init.sh
  $ yarn start
- 
+```
+
+Проверить в браузере: http://localhost:4201/
+
+Чтобы положить всё в репозиторий:
+```
  $ git remote add origin <your-repo-url>
  $ git push -u origin master
 ```
+Примечание: локальный коммит выполняется автоматически после выполнения всех установок
 
 TODO:
 * Добавить автоматическую генерацию задач для PHPStorm (yarn start, etc)
