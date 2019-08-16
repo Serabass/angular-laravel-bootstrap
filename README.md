@@ -3,7 +3,7 @@
 # Требования
  * [Установленный Yarn](https://yarnpkg.com/lang/en/)
 
-Что под капотом:
+# Что под капотом
  * [ng-zorro-antd](https://ng.ant.design/docs/introduce/en)
  * [@ngx-resource/core](https://www.npmjs.com/package/@ngx-resource/core)
  * [@uirouter/angular](https://www.npmjs.com/package/@uirouter/angular)
