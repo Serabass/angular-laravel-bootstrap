@@ -1,7 +1,8 @@
 Репозиторий для быстрого развёртывания проекта с использованием [Laravel](https://laravel.com/), [Angular](https://angular.io/) и [Lerna](https://github.com/lerna/lerna).
 
 # Требования
- * [Установленный Yarn](https://yarnpkg.com/lang/en/)
+ * [Глобально установленный Yarn](https://yarnpkg.com/lang/en/)
+ * [Глобально установленный Composer](https://getcomposer.org/)
 
 # Что под капотом
  * [ng-zorro-antd](https://ng.ant.design/docs/introduce/en)
