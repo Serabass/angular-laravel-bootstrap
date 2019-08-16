@@ -12,6 +12,9 @@
  $ cd <project-name>
  $ sh init.sh
  $ yarn start
+ 
+ $ git remote add origin <your-repo-url>
+ $ git push -u origin master
 ```
 
 TODO:
