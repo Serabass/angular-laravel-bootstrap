@@ -3,6 +3,7 @@
 # Требования
  * [Глобально установленный Yarn](https://yarnpkg.com/lang/en/)
  * [Глобально установленный Composer](https://getcomposer.org/)
+ * Желание сэкономить время
 
 # Что под капотом
  * [NgZorro (Ant Design for Angular)](https://ng.ant.design/docs/introduce/en)
@@ -52,7 +53,9 @@ _**Примечание**: локальный коммит выполняетс�
 * Добавить [`Homestead`](https://laravel.com/docs/5.8/homestead)
 * Украсить вывод перенаправлением в /dev/null и своими сообщениями
 
-# Аналогичные репы в планах
+# Аналогичные репы 
+* [Angular + Node + Express](https://github.com/Serabass/angular-node-bootstrap)
+## в планах
 * Angular + Node + Express \[+ GraphQL]
 * Angular + .Net Core
 * Angular + Grails
