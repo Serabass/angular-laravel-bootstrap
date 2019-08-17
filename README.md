@@ -56,7 +56,7 @@ _**Примечание**: локальный коммит выполняетс�
 # Аналогичные репы 
 * [Angular + Node + Express](https://github.com/Serabass/angular-node-bootstrap)
 ## в планах
-* Angular + Node + Express \[+ GraphQL]
+* Angular + Node + Express + GraphQL
 * Angular + .Net Core
 * Angular + Grails
 * NativeScript
