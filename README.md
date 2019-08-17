@@ -35,7 +35,7 @@ _**Примечание**: локальный коммит выполняетс�
 ## Backend
  * `yarn art` - Короткая запись `php artisan`. (`yarn art migrate` == `php artisan migrate`)
  * `yarn mf` - Короткая запись `php artisan migrate:fresh`. Очищает всю базу данных и выполняет [миграции](https://laravel.com/docs/5.8/migrations#running-migrations) с нуля. Полезно на начальных этапах разработки
- * `yarn seed` - Сбросить всю базу данных и заполнить имеющимися [сидами](https://laravel.com/docs/5.8/seeding). 
+ * `yarn seed` - Сбросить всю базу данных и заполнить имеющимися [сидами](https://laravel.com/docs/5.8/seeding). (migrate:fresh && db:seed)
  * `yarn m` - Короткая запись `php artisan migrate`
  * `yarn ide-helper` - Вызвать [ide-helper](https://github.com/barryvdh/laravel-ide-helper)
 
