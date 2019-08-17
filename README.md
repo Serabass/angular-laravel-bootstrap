@@ -54,6 +54,8 @@ _**Примечание**: локальный коммит выполняетс�
 * Добавить [Homestead](https://laravel.com/docs/5.8/homestead)
 * Украсить вывод перенаправлением в /dev/null и своими сообщениями
 * Добавить [YaRoute](https://github.com/Serabass/yaroute)
+* Добавить [laravel-apidoc-generator](https://github.com/mpociot/laravel-apidoc-generator)
+* Добавить RAML
 
 # Аналогичные репы 
 * [Angular + Node + Express](https://github.com/Serabass/angular-node-bootstrap)
