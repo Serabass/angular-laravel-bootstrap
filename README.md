@@ -47,11 +47,12 @@ _**Примечание**: локальный коммит выполняетс�
 Предлагайте свои плюшки в [Issues](https://github.com/Serabass/angular-laravel-bootstrap/issues)
 
 # TODO
-* Добавить автоматическую генерацию задач для PHPStorm (yarn start, etc)
+* Добавить автоматическую конфигурация запуска для PHPStorm / VSCode / Visual Studio
 * Добавить common-модуль
 * Раскурить деплой в гитлабе и генерировать `.gitlab-ci.yml`
-* Добавить [`Homestead`](https://laravel.com/docs/5.8/homestead)
+* Добавить [Homestead](https://laravel.com/docs/5.8/homestead)
 * Украсить вывод перенаправлением в /dev/null и своими сообщениями
+* Добавить [YaRoute](https://github.com/Serabass/yaroute)
 
 # Аналогичные репы 
 * [Angular + Node + Express](https://github.com/Serabass/angular-node-bootstrap)
