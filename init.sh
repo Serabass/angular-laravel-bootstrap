@@ -58,7 +58,7 @@ mv proxy.config.json packages/frontend
 cd packages/frontend
 
 # Обновляем задачу start, чтобы работало через прокси
-cat package.json | json -e "this.scripts.start += ' --proxy-config proxy.config.json --port 4201'" > package.json
+cat package.json | json -e "this.scripts.start = 'ng serve --proxy-config proxy.config.json --port 4201'" > package.json
 
 # Прописываем имя пакета
 cat package.json | json -e "this.name = '@$PROJECTNAME/frontend'" > package.json
